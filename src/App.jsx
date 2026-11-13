@@ -1,0 +1,21 @@
+import MatchdayGuide from './components/MatchdayGuide.jsx'
+import Footer from './components/Footer.jsx'
+import Hero from './components/Hero.jsx'
+import HowItWorks from './components/HowItWorks.jsx'
+import Navbar from './components/Navbar.jsx'
+import Sample from './components/Sample.jsx'
+
+const App = () => {
+  return (
+    <div className="font-sans">
+      <Navbar />
+      <Hero />
+      <HowItWorks />
+      <Sample />
+      <MatchdayGuide />
+      <Footer />
+    </div>
+  )
+}
+
+export default App
