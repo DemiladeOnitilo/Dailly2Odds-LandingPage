@@ -6,7 +6,8 @@ import Navbar from './components/Navbar.jsx'
 import Sample from './components/Sample.jsx'
 
 const App = () => {
-    <div className="dm-sans">
+  return (
+    <div>
       <Navbar />
       <Hero />
       <HowItWorks />
@@ -14,6 +15,7 @@ const App = () => {
       <MatchdayGuide />
       <Footer />
     </div>
+  )
 }
 
 export default App

@@ -59,7 +59,7 @@ const Navbar = () => {
         >
           <img
             src={Logo}
-            alt="SmartTips Logo"
+            alt="Daily2Odds Logo"
             className="h-auto w-40 sm:w-48"
           />
         </a>
